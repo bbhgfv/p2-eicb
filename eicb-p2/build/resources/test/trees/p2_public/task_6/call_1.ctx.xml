@@ -1,0 +1,79 @@
+<Module line="1" column="0">
+  <functions>
+    <Function line="1" column="0" name="main">
+      <returnTypeSpecifier class="VoidTypeSpecifier" line="1" column="9">
+        <type class="VoidType"/>
+      </returnTypeSpecifier>
+      <parameters/>
+      <body>
+        <VariableDeclaration line="2" column="4" name="x">
+          <typeSpecifier class="IntTypeSpecifier" line="2" column="8">
+            <type class="IntType"/>
+          </typeSpecifier>
+          <type class="IntType"/>
+        </VariableDeclaration>
+        <VariableDeclaration line="3" column="4" name="y">
+          <typeSpecifier class="FloatTypeSpecifier" line="3" column="8">
+            <type class="FloatType"/>
+          </typeSpecifier>
+          <type class="FloatType"/>
+        </VariableDeclaration>
+        <VariableDeclaration line="4" column="4" name="z">
+          <typeSpecifier class="BoolTypeSpecifier" line="4" column="8">
+            <type class="BoolType"/>
+          </typeSpecifier>
+          <type class="BoolType"/>
+        </VariableDeclaration>
+        <CallStatement line="6" column="4">
+          <callExpression line="6" column="4" functionName="foo">
+            <type class="VoidType"/>
+            <actualParameters>
+              <IdentifierReference line="6" column="8" name="x">
+                <type class="IntType"/>
+                <declaration class="VariableDeclaration" reference="../../../../../VariableDeclaration"/>
+              </IdentifierReference>
+              <IdentifierReference line="6" column="11" name="y">
+                <type class="FloatType"/>
+                <declaration class="VariableDeclaration" reference="../../../../../VariableDeclaration[2]"/>
+              </IdentifierReference>
+              <IdentifierReference line="6" column="14" name="z">
+                <type class="BoolType"/>
+                <declaration class="VariableDeclaration" reference="../../../../../VariableDeclaration[3]"/>
+              </IdentifierReference>
+            </actualParameters>
+            <callee line="9" column="0" name="foo">
+              <returnTypeSpecifier class="VoidTypeSpecifier" line="9" column="9">
+                <type class="VoidType"/>
+              </returnTypeSpecifier>
+              <parameters>
+                <FormalParameter line="9" column="18" name="x">
+                  <typeSpecifier class="IntTypeSpecifier" line="9" column="18">
+                    <type class="IntType"/>
+                  </typeSpecifier>
+                  <type class="IntType"/>
+                </FormalParameter>
+                <FormalParameter line="9" column="25" name="y">
+                  <typeSpecifier class="FloatTypeSpecifier" line="9" column="25">
+                    <type class="FloatType"/>
+                  </typeSpecifier>
+                  <type class="FloatType"/>
+                </FormalParameter>
+                <FormalParameter line="9" column="34" name="z">
+                  <typeSpecifier class="BoolTypeSpecifier" line="9" column="34">
+                    <type class="BoolType"/>
+                  </typeSpecifier>
+                  <type class="BoolType"/>
+                </FormalParameter>
+              </parameters>
+              <body/>
+              <returnType class="VoidType"/>
+            </callee>
+          </callExpression>
+        </CallStatement>
+      </body>
+      <returnType class="VoidType"/>
+    </Function>
+    <Function reference="../Function/body/CallStatement/callExpression/callee"/>
+  </functions>
+  <records/>
+</Module>

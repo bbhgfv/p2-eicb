@@ -1,0 +1,7 @@
+function void main(){
+    val matrix<int>[3][1] a = [ [3], [3], [3]];
+    val matrix<float>[1][3] b = [ [4.0, 4.0, 4.0] ];
+
+    // type error
+    val int x = a # b;
+}

@@ -1,0 +1,11 @@
+function void main(){
+    var int x;
+    var float y;
+    var bool z;
+    
+    foo(x, y, z);
+}
+
+function void foo(int x, float y, bool z){
+
+}

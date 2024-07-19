@@ -1,0 +1,5 @@
+
+Mismatching types 'float' and 'int':
+
+Faulty node in line 6, column 4:
+> foo(x, y, z)

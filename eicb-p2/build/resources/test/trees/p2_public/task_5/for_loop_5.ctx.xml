@@ -1,0 +1,76 @@
+<Module line="1" column="0">
+  <functions>
+    <Function line="1" column="0" name="main">
+      <returnTypeSpecifier class="VoidTypeSpecifier" line="1" column="9">
+        <type class="VoidType"/>
+      </returnTypeSpecifier>
+      <parameters/>
+      <body>
+        <VariableDeclaration line="2" column="4" name="i">
+          <typeSpecifier class="IntTypeSpecifier" line="2" column="8">
+            <type class="IntType"/>
+          </typeSpecifier>
+          <type class="IntType"/>
+        </VariableDeclaration>
+        <VariableDeclaration line="3" column="4" name="counter">
+          <typeSpecifier class="IntTypeSpecifier" line="3" column="8">
+            <type class="IntType"/>
+          </typeSpecifier>
+          <type class="IntType"/>
+        </VariableDeclaration>
+        <VariableAssignment line="4" column="4">
+          <identifier line="4" column="4" name="i">
+            <declaration class="VariableDeclaration" reference="../../../VariableDeclaration"/>
+          </identifier>
+          <value class="IntValue" line="4" column="8" value="0">
+            <type class="IntType"/>
+          </value>
+        </VariableAssignment>
+        <ForLoop line="5" column="4" initVarName="counter" incrVarName="counter">
+          <initExpression class="IntValue" line="5" column="19" value="0">
+            <type class="IntType"/>
+          </initExpression>
+          <loopCondition class="Compare" line="5" column="22">
+            <type class="BoolType"/>
+            <leftOperand class="IdentifierReference" line="5" column="22" name="counter">
+              <type class="IntType"/>
+              <declaration class="VariableDeclaration" reference="../../../../VariableDeclaration[2]"/>
+            </leftOperand>
+            <rightOperand class="IntValue" line="5" column="32" value="10">
+              <type class="IntType"/>
+            </rightOperand>
+            <comparator>LESS</comparator>
+          </loopCondition>
+          <incrExpression class="Addition" line="5" column="46">
+            <type class="IntType"/>
+            <leftOperand class="IdentifierReference" line="5" column="46" name="counter">
+              <type class="IntType"/>
+              <declaration class="VariableDeclaration" reference="../../../../VariableDeclaration[2]"/>
+            </leftOperand>
+            <rightOperand class="IntValue" line="5" column="56" value="1">
+              <type class="IntType"/>
+            </rightOperand>
+          </incrExpression>
+          <body class="ValueDefinition" line="6" column="8" name="i">
+            <typeSpecifier class="IntTypeSpecifier" line="6" column="12">
+              <type class="IntType"/>
+            </typeSpecifier>
+            <type class="IntType"/>
+            <value class="Addition" line="6" column="20">
+              <type class="IntType"/>
+              <leftOperand class="IdentifierReference" line="6" column="20" name="i">
+                <type class="IntType"/>
+                <declaration class="VariableDeclaration" reference="../../../../../VariableDeclaration"/>
+              </leftOperand>
+              <rightOperand class="IntValue" line="6" column="24" value="1"/>
+            </value>
+          </body>
+          <initVarDecl class="VariableDeclaration" reference="../../VariableDeclaration[2]"/>
+          <incrVarDecl class="VariableDeclaration" reference="../../VariableDeclaration[2]"/>
+        </ForLoop>
+      </body>
+      <returnType class="VoidType"/>
+    </Function>
+  </functions>
+  <records/>
+</Module>

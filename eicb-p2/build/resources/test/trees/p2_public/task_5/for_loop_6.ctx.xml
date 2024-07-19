@@ -1,0 +1,67 @@
+<Module line="1" column="0">
+  <functions>
+    <Function line="1" column="0" name="main">
+      <returnTypeSpecifier class="VoidTypeSpecifier" line="1" column="9">
+        <type class="VoidType"/>
+      </returnTypeSpecifier>
+      <parameters/>
+      <body>
+        <VariableDeclaration line="2" column="4" name="i">
+          <typeSpecifier class="IntTypeSpecifier" line="2" column="8">
+            <type class="IntType"/>
+          </typeSpecifier>
+          <type class="IntType"/>
+        </VariableDeclaration>
+        <ForLoop line="3" column="4" initVarName="i" incrVarName="i">
+          <initExpression class="IntValue" line="3" column="10" value="0">
+            <type class="IntType"/>
+          </initExpression>
+          <loopCondition class="Compare" line="3" column="13">
+            <type class="BoolType"/>
+            <leftOperand class="IdentifierReference" line="3" column="13" name="i">
+              <type class="IntType"/>
+              <declaration class="VariableDeclaration" reference="../../../../VariableDeclaration"/>
+            </leftOperand>
+            <rightOperand class="IntValue" line="3" column="15" value="17">
+              <type class="IntType"/>
+            </rightOperand>
+            <comparator>LESS</comparator>
+          </loopCondition>
+          <incrExpression class="Addition" line="3" column="21">
+            <type class="IntType"/>
+            <leftOperand class="IdentifierReference" line="3" column="21" name="i">
+              <type class="IntType"/>
+              <declaration class="VariableDeclaration" reference="../../../../VariableDeclaration"/>
+            </leftOperand>
+            <rightOperand class="IntValue" line="3" column="23" value="1">
+              <type class="IntType"/>
+            </rightOperand>
+          </incrExpression>
+          <body class="CompoundStatement" line="3" column="25">
+            <statements>
+              <VariableDeclaration line="4" column="8" name="i">
+                <typeSpecifier class="IntTypeSpecifier" line="4" column="12">
+                  <type class="IntType"/>
+                </typeSpecifier>
+                <type class="IntType"/>
+              </VariableDeclaration>
+              <ValueDefinition line="5" column="8" name="y">
+                <typeSpecifier class="FloatTypeSpecifier" line="5" column="12">
+                  <type class="FloatType"/>
+                </typeSpecifier>
+                <type class="FloatType"/>
+                <value class="FloatValue" line="5" column="22" value="42.0">
+                  <type class="FloatType"/>
+                </value>
+              </ValueDefinition>
+            </statements>
+          </body>
+          <initVarDecl class="VariableDeclaration" reference="../../VariableDeclaration"/>
+          <incrVarDecl class="VariableDeclaration" reference="../../VariableDeclaration"/>
+        </ForLoop>
+      </body>
+      <returnType class="VoidType"/>
+    </Function>
+  </functions>
+  <records/>
+</Module>

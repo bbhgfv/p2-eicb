@@ -1,0 +1,59 @@
+<Module line="1" column="0">
+  <functions>
+    <Function line="1" column="0" name="main">
+      <returnTypeSpecifier class="VoidTypeSpecifier" line="1" column="9">
+        <type class="VoidType"/>
+      </returnTypeSpecifier>
+      <parameters/>
+      <body>
+        <ValueDefinition line="2" column="4" name="m">
+          <typeSpecifier class="MatrixTypeSpecifier" line="2" column="8">
+            <type class="MatrixType" rows="3" cols="1">
+              <elementType class="FloatType"/>
+            </type>
+            <elementTypeSpecifier class="FloatTypeSpecifier" line="2" column="15">
+              <type class="FloatType"/>
+            </elementTypeSpecifier>
+            <rowsExpression class="IntValue" line="2" column="22" value="3">
+              <type class="IntType"/>
+            </rowsExpression>
+            <colsExpression class="IntValue" line="2" column="25" value="1">
+              <type class="IntType"/>
+            </colsExpression>
+          </typeSpecifier>
+          <type class="MatrixType" reference="../typeSpecifier/type"/>
+          <value class="mavlc.syntax.expression.MatrixTranspose" line="2" column="32">
+            <type class="MatrixType" rows="3" cols="1">
+              <elementType class="FloatType"/>
+            </type>
+            <operand class="StructureInit" line="2" column="33">
+              <type class="MatrixType" rows="1" cols="3">
+                <elementType class="FloatType"/>
+              </type>
+              <elements>
+                <StructureInit line="2" column="34">
+                  <type class="VectorType" dimension="3">
+                    <elementType class="FloatType"/>
+                  </type>
+                  <elements>
+                    <FloatValue line="2" column="35" value="1.0">
+                      <type class="FloatType"/>
+                    </FloatValue>
+                    <FloatValue line="2" column="39" value="2.0">
+                      <type class="FloatType"/>
+                    </FloatValue>
+                    <FloatValue line="2" column="43" value="3.0">
+                      <type class="FloatType"/>
+                    </FloatValue>
+                  </elements>
+                </StructureInit>
+              </elements>
+            </operand>
+          </value>
+        </ValueDefinition>
+      </body>
+      <returnType class="VoidType"/>
+    </Function>
+  </functions>
+  <records/>
+</Module>

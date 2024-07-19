@@ -1,0 +1,4 @@
+function void main() {
+	var matrix<float>[4][2] m;
+	m[2][0] = 5.0;
+}

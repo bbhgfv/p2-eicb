@@ -1,0 +1,3 @@
+function void main() {
+	var vector<int>[2^8 - 1] x;
+}

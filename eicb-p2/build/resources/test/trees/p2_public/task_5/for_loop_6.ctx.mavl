@@ -1,0 +1,7 @@
+function void main(){
+    var int i;
+    for(i=0; i<17; i=i+1){
+        var int i;
+        val float y = 42.0;
+    }
+}

@@ -1,0 +1,7 @@
+function void main(){
+    var int i;
+    var int counter;
+    i = 0;
+    for (counter = 0; counter < 10; counter = counter + 1)
+        val int i = i + 1;
+}

@@ -1,0 +1,5 @@
+function void main(){
+    val matrix<int>[1][3] a = [[3], [3], [3]];
+    // Structure dimension error
+    val matrix<int>[1][3] b = a # a;
+}

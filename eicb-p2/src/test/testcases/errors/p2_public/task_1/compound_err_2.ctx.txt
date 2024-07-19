@@ -1,0 +1,8 @@
+
+Identifier 'x' has already been declared in the same scope:
+
+Original declaration in line 6, column 6:
+> val int x = 5;
+
+Duplicate declaration in line 7, column 6:
+> var vector<int>[999] x;
